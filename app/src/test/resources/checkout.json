@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "code": "cb85230e-b691-11e8-96f8-529269fb1459",
+      "quantity": 1,
+      "value": 999.99
+    }
+  ],
+  "payment": {
+    "cardValue": "4111111111111111",
+    "type": "CARD"
+  }
+}

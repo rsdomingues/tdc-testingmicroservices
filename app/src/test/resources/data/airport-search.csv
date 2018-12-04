@@ -1,0 +1,8 @@
+searchAirport,ignoreCode,ignoreAirport
+,,
+PRE,,
+,1N,
+,,VCP
+VCP,1A,LAS
+LAS,1N,VCP
+RAP,1N,VCP

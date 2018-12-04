@@ -1,0 +1,45 @@
+eureka:
+  instance:
+    instanceId: ${spring.application.instance-id:${random.value}}
+  client:
+    enabled: false
+    fetchRegistry: false
+    registerWithEureka: false
+
+tdcsample:
+  async:
+    corePoolSize: 100
+  billet:
+    days-due-date: 7
+    addition-price: 3.25
+
+ribbon:
+  eureka:
+    enabled: false
+
+payment:
+  ribbon:
+    ReadTimeout: 30000
+    ConnectTimeout: 30000
+    listOfServers: http://localhost:8083
+
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+ command:
+   viajemais:
+    execution.isolation.thread.timeoutInMilliseconds: 2000
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+spring:
+    thymeleaf:
+    enabled: false

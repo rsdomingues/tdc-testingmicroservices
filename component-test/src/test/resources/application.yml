@@ -1,0 +1,3 @@
+checkoutorder:
+  ribbon:
+    listOfServers: http://localhost:8080
